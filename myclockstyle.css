@@ -1,0 +1,66 @@
+#clock{
+  text-align:center;
+  background-color:black;
+  color:gold;
+  width:20%;
+  border-radius: 10px;
+  font-size: 48px;
+  margin: 0 auto 0 auto;
+  font-family: "philly",cursive;
+}
+#alarm-div, .alarm,.alarm-meridiem{
+  text-align:center;
+  color:gold;
+
+  border-radius: 10px;
+  font-size: 40px;
+  margin: 0 auto 0 auto;
+  font-family: "philly",cursive;
+}
+.alarmNoti{
+  text-align: center;
+  color: gold;
+  width: 10%;
+  border-radius: 20px;
+  font-size: 27px;
+  margin: 0 auto 0 auto;
+  font-family: "philly",cursive;
+  display: none;
+}
+.show,.countdown{
+  text-align: center;
+  color: gold;
+
+  border-radius: 20px;
+  font-size: 27px;
+  margin: 0 auto 0 auto;
+  font-family: "philly",cursive;
+
+}
+.mainAlarmNoti,.button,.show-button{
+  text-align: center;
+  color: gold;
+
+  border-radius: 20px;
+  font-size: 27px;
+  margin: 0 auto 0 auto;
+  font-family: "philly",cursive;
+}
+h1{
+  text-align: center;
+  font-family: "philly",cursive;
+  color: red;
+  font-size: 53px;
+}
+body{
+  background-color: white;
+  background-image: url("gshock.jpg");
+  font-family: "philly";
+}
+@font-face {
+  font-family: "philly";
+  src: url('fonts/PhillySans.otf')
+  format('opentype');
+
+
+}

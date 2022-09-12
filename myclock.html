@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="myclockstyle.css">
+  </head>
+  <body>
+    <h1>Digital Clock</h1>
+    
+    <div id="clock">
+      The clock goes here.
+    </div>
+    <br>
+    <div id="alarm-div">
+      <label for="">Alarm</label>
+      <select class="alarm" name="">
+
+          <option value="1">01</option>
+          <option value="2">02</option>
+          <option value="3">03</option>
+          <option value="4">04</option>
+          <option value="5" selected>05</option>
+          <option value="6">06</option>
+          <option value="7">07</option>
+          <option value="8">08</option>
+          <option value="9">09</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+
+      </select>
+
+      <select class="alarm-meridiem" name="">
+
+          <option value="AM" selected>AM</option>
+          <option value="PM">PM</option>
+
+      </select>
+    </div>
+    <br>
+    <div class="alarmNoti">
+      <div class="mainAlarmNoti">
+          <p>ALARM!!!</p>
+
+          <button type="button" name="button" class="button">Turn off</button>
+
+      </div>
+
+
+
+
+    </div>
+    <div class="countdown">
+
+    </div>
+    <br>
+    <div class="show">
+        <button type="button" name="button" class="show-button">Show Alarm</button>
+    </div>
+
+    <script src="myclock.js" charset="utf-8"></script>
+  </body>
+</html>
